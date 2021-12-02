@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html style="font-family: 'Calibri';">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Registro</title>
+        <link rel="shortcut icon" href="img/donaLogo.png">
+        <link rel="stylesheet" href="index.css" >
+
+        <style>
+
+            li a{
+                
+                color: black;
+
+            }
+
+            li a:hover:not(.active) {
+                background-color: rgb(118, 89, 155);
+                color: white;
+
+            }
+        </style>
+    </head>
+    <body>
+        
+        
+        <div class = "rectangulo1" style="position: absolute;
+                                          top: 15%;
+                                          left: 35%;
+                                          width: 60%;
+                                          height: 20%;
+                                          border-radius: 20px;
+                                    
+                                          background-color: rgb(75, 45, 88);">
+
+        </div>
+
+        <div class="titulo" style="position: absolute;
+                                    left: 30%;
+                                    height: 20%;
+                                    top: 10%;
+                                    width: 60%;
+                                    border-radius: 20px;
+                                
+                                    text-align: center;
+                                    font-size: 20mm;
+                                    font-weight: 800;
+                                    background: #bc94f1;">
+            Panadería Iris
+        </div> 
+
+
+        <ul style="list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    width: 25%;
+                    background-color: #bd94f173;
+                    position: fixed;
+                    height: 100%;
+                    overflow: auto;
+                    display: block;
+                    color: #000;
+                    padding-top: .5rem;
+                    padding-bottom: .5rem;
+                    padding-right: .5rem;
+                    padding-left: .5rem;
+                    text-decoration: none;  
+
+                    font-size: 10mm;" >
+            <li><a class="active" href="/" style="display: block;
+                                                           color: #000;
+                                                           padding-top: 2rem;
+                                                           padding-bottom: 2rem;
+                                                           padding-right: 5rem;
+                                                           padding-left: .5rem;
+                                                           text-decoration: none;
+                                                    
+                                                           font-size: 10mm;
+                                                           background-color: rgb(118, 89, 155);
+                                                           color: white;
+                                                           border-radius: 5px;">Home</a></li>
+                                                           
+            <li><a href="/Contacto" style="display: block;
+                                                padding-top: 2rem;
+                                                padding-bottom: 2rem;
+                                                padding-right: 5rem;
+                                                padding-left: .5rem;
+                                                text-decoration: none;
+                                                border-radius: 5px;
+                                                
+                                        
+                                                font-size: 10mm;">Contacto</a></li>
+            <li><a href="Conocenos.html" style="display: block;
+                                                padding-top: 2rem;
+                                                padding-bottom: 2rem;
+                                                padding-right: 5rem;
+                                                padding-left: .5rem;
+                                                text-decoration: none;
+                                                border-radius: 5px;
+                                        
+                                                font-size: 10mm;">Conocenos</a></li>
+            
+          </ul>
+        
+        
+        
+        <div style="position: absolute;
+                    left: 38%;
+                    top: 40%;
+                    background: white;
+                    width: 45%;
+                    padding: 1.5rem;
+                    border: 2px solid rgb(118, 89, 155);
+                    border-radius: 40px;">
+            
+            <form action="/save" method="POST" style="font-size: 6mm;
+                                                      text-align: center;">
+                
+                <label>Nombre:</label>
+                <input type="text" id="nombre" name="nombre" maxlength="50" min="2" style="border: none;
+                                                                                            border-bottom: rgb(118, 89, 155) 4px solid;
+                                                                                            width: 35%;
+                                                                                            font-family: 'Calibri';
+                                                                                            font-size: 5mm;
+                                                                                            margin-left: 2rem;"/>
+                <br>
+                <br>
+                <label>Apellidos:</label>
+                <input type="text" id="apellido" name="apellido" maxlength="50" minlength="10" style="border: none;
+                                                                                                     border-bottom: rgb(118, 89, 155) 4px solid;
+                                                                                                     width: 35%;
+                                                                                                     font-family: 'Calibri';
+                                                                                                     font-size: 5mm;
+                                                                                                     margin-left: 1.4rem;"/>
+                <br>
+                <br>
+                <label>Usuario:</label>
+                <input type="text" id="user" name="user" maxlength="20" minlength="5" style="border: none;
+                                                                                             border-bottom: rgb(118, 89, 155) 4px solid;
+                                                                                             width: 35%;
+                                                                                             font-family: 'Calibri';
+                                                                                             font-size: 5mm;
+                                                                                             margin-left: 2.2rem;"/>
+                <br>
+                <br>
+                <label>Contraseña:</label>
+                <input type="password" id="password" name="password" maxlength="25" minlength="5" style="border: none;
+                                                                                                         border-bottom: rgb(118, 89, 155) 4px solid;
+                                                                                                         width: 35%;
+                                                                                                         font-family: 'Calibri';
+                                                                                                         font-size: 5mm;
+                                                                                                         margin-left: .2rem;"/>
+                <br>
+                <br>    
+                <br>
+                <input type="submit" value="Registrar" style="background: rgb(118, 89, 155);
+                                                              border: rgb(118, 89, 155) 4px solid;
+                                                              width: 50%;
+                                                              font-family: 'Calibri';
+                                                              font-size: 5mm;
+                                                              margin-left: 2rem;
+                                                              border-radius: 20px;"/>
+                
+            </form>
+        </div>
+        
+        <div>
+            
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/11/2021, 02:06:33 AM
+    Author     : ACER01
+*/
+
+*{
+
+    font-family: 'Calibri';
+
+}
+
+body {
+    margin: 0;
+  
+}
+
+.rectangulo1{
+
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    width: 60%;
+    height: 20%;
+    border-radius: 20px;
+
+    background-color: rgb(75, 45, 88);
+
+}
+
+.titulo{
+
+    position: absolute;
+    left: 30%;
+    height: 20%;
+    top: 10%;
+    width: 60%;
+    border-radius: 20px;
+
+    text-align: center;
+    font-size: 20mm;
+    font-weight: 800;
+    background: #bc94f1;
+
+}
+
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #bd94f173;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 5rem;
+    padding-left: .5rem;
+    text-decoration: none;
+
+    font-size: 10mm;
+  }
+  
+  li a.active {
+    background-color: rgb(118, 89, 155);
+    color: white;
+    border-radius: 5px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(65, 41, 87);
+    color: white;
+  }
+
